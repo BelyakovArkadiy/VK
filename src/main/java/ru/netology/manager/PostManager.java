@@ -5,12 +5,11 @@ import ru.netology.domain.Post;
 public class PostManager {
     private Post[] post;
 
- public Post[] searchPostInWall(Post[] post) {
-     return post;
+    public Post[] postSearch(int ownerId, int id, int date, String text, int count) {
+        return post;
+    }
 
- }
-    public void deletePostInWall(Post[] post) {
-        return;
-
+    public void postDelete (int ownerId, int id){
+    return;
     }
 }
